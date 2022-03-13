@@ -6,28 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PET SHOP</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <p class="config-pag">Grandes ofertas en comederos</p>
-        <p class="config-pag botones-derecha">Español</p>
-        <p class="config-pag botones-derecha">ARG$</p>
+    <header id="distrib-header-principal">
+        <div id="config-ofertas">
+            <p>Grandes ofertas en comederos</p>
+        </div>
+
+        <section id="config-pag">
+            <div class="config-pag-botones">
+                <p class="botones-idioma-moneda">Español</p><i class="fa-solid fa-arrow-down config-flechas"></i>
+            </div>
+
+            <div class="config-pag-botones">
+                <p class="botones-idioma-moneda">ARG$</p><i class="fa-solid fa-arrow-down config-flechas"></i>
+            </div>
+        </section>
     </header>
 
-    <section>
-        <h2>Front</h2><h2>Cat&Dog</h2>
+    <div id="style-nav-bar">
+        <div id="primer-div">
+            <a href="">
+                <img src="img/Logo PetShop.svg" alt="FrontCat&Dog">
+            </a>
+        </div>
         <nav>
-            <ul>
-                <li>Categorias</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactanos</li>
+            <ul class="nav-bar-ul">
+                <li class="nav-bar-list">
+                    <i>
+                        <img src="./img/pawprint 1.svg" alt="Paw">
+                    </i>
+                    <a href="" target="_blank">Categorias</a>
+                </li>
+                <li class="nav-bar-list">
+                    <i>
+                        <img src="./img/pawprint 1.svg" alt="Paw">
+                    </i>
+                    <a href="" target="_blank">Pets</a>
+                </li>
+                <li class="nav-bar-list">
+                    <i>
+                        <img src="./img/pawprint 1.svg" alt="Paw">
+                    </i>
+                    <a href="" target="_blank">Nosotros</a>
+                </li>
+                <li class="nav-bar-list">
+                    <i>
+                        <img src="./img/pawprint 1.svg" alt="Paw">
+                    </i>
+                    <a href="" target="_blank">Contactanos</a>
+                </li>
             </ul>
         </nav>
-    </section>
+    </div>
 
     <main>
+        <div id="presentacion">
+            <h2>Es una placer tenerte aqui!</h2>
+            <p>Comederos en descuento!</p>
+            <p>Comederos</p>
+        </div>
 
+        <div class="align-center-padding">
+            <img src="./img/pawprint 2.svg" alt="Paw">
+            <section id="productos-destacados">
+                <h1>Productos Destacados</h1>
+                <ul class="ul-productos">
+                    <li class="productos"><a href="">Comederos</a></li>
+                    <li class="productos">-</li>
+                    <li class="productos"><a href="">Accesorios</a></li>
+                    <li class="productos">-</li>
+                    <li class="productos"><a href="">Comida</a></li>
+                </ul>
+            </section>
+
+            <div id="imagenes-productos">
+                <section>
+                    <a href="" target="_blank">
+                        <img src="/img/churrasquito.png" alt="Churrasco">
+                    </a>
+                </section>
+
+                <section>
+                    <a href="" target="_blank">
+                        <img src="img/comedero.png" alt="Comedero">
+                    </a>
+                </section>
+
+                <section>
+                    <a href="" target="_blank">
+                        <img src="img/Huesito.png" alt="Jueguete Huesito">
+                    </a>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 </html>
